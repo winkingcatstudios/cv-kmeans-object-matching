@@ -1,2 +1,2 @@
-# kmeans-cv-object-matching
+# kmeans-cv-segmentation-confidence
 K means image segmentation solution in Python 3.8, with the help of the OpenCV, NumPy, and Matplotlib libraries. Test inputs consist of a picture of a hand taken against a dark background, and a user-defined K value for K means. Final output is a two-dimensional array whose height and width match my input image. The output array comprises a probability map with each point showing the normalized probability for that pixel to represent a skin tone, i.e., the probability that any given pixel is part of the hand.
